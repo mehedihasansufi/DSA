@@ -1,2 +1,2 @@
 # DSA 
-DATA Structure PROBLEM Solving here and data structure basic code here
+Data Structure Problem  Solving here and data structure basic code here
