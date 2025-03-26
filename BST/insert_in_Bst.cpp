@@ -74,7 +74,7 @@ void insert_in_BST(Node* &root,int val){
 
     }else{
         //for right subtree
-        if(root->left==NULL){
+        if(root->right==NULL){
             root->right=new Node(val);
         }else{
             insert_in_BST(root->right,val);
