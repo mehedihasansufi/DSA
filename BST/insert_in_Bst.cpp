@@ -59,8 +59,9 @@ Node* input_tree(){
 }
 void insert_in_BST(Node* &root,int val){
     if(root==NULL){
-    //যদি কোনো valu না থাকে
+    //যদি কোনো value না থাকে
         root=new  Node(val);
+        return;
     }
     if(root->val>val){
         //for left subtree
